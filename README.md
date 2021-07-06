@@ -24,4 +24,4 @@ If you are any questions please send an email to opale.rambaud@gmail.com
 
 
 
-![alt text](https://github.com/[OpaleRambaud]/[stage_recombination_AH]/blob/[main]/pipeline.jpg?raw=true)
+![Pipeline](https://github.com/OpaleRambaud/stage_recombination_AH/pipeline.png 
