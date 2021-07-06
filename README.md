@@ -23,5 +23,4 @@ These scripts are in Jupyter Notebook format.
 If you are any questions please send an email to opale.rambaud@gmail.com
 
 
-
-![Pipeline](https://github.com/OpaleRambaud/stage_recombination_AH/pipeline.png 
+![Pipeline](pipeline.png)
