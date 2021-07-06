@@ -16,6 +16,13 @@ BBC : Bootstrap Barcodes Construction. This script allows to build the barcode r
 
 SRC : Search For Recombination Candidates. This script allows to make a recombination candidates search. The inputs are the csv file with the bipartion you want to serch for candidates and the csv files with all bipartion who can be candidates. The output is a text file with the candidates per fragment of signal loss. 
 
+Here is the general pipeline of the internship to better understand every scripts roles : 
+
+![Pipeline](pipeline.png)
+
+
+
+
 
 These scripts are in Jupyter Notebook format. 
 
@@ -23,4 +30,3 @@ These scripts are in Jupyter Notebook format.
 If you are any questions please send an email to opale.rambaud@gmail.com
 
 
-![Pipeline](pipeline.png)
