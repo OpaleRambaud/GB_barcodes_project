@@ -16,7 +16,7 @@ The github contains 4 scripts :
 
 - SRC : Search For Recombination Candidates. This script allows to make a recombination candidates search. The inputs are the csv file with the bipartion you want to serch for candidates and the csv files with all bipartion who can be candidates. The output is a text file with the candidates per fragment of signal loss. 
 
-Here is the general pipeline of the internship to better understand every scripts roles : 
+Here is the general pipeline of the internship for a better understanding of the role of each script : 
 
 ![Pipeline](pipeline.png)
 
@@ -27,6 +27,6 @@ Here is the general pipeline of the internship to better understand every script
 These scripts are in Jupyter Notebook format. 
 
 
-If you are any questions please send an email to opale.rambaud@gmail.com
+If you have any questions please send an email to opale.rambaud@gmail.com
 
 
