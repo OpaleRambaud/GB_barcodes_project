@@ -1,32 +1,64 @@
-# stage_recombination_AH
+# Programme de détection des recombinaisons
 
+Ce programme a pour but de donner les fréquences de bipartitions calculées par maximum de vraisemblance à partir d'un alignement de séquence.
 
-These scripts were realized for a 6 months Bioinformatic Master 2 internship by Opale Rambaud under the supervision of Alexandre Hassanin.
+## Prérequis
 
-The aim of the internship was to visualize the bipartition signal obtained by the BSW program (see Dylkln github) in the form of a barcode and then to search for recombination candidates. 
+L'utilisation de [Miniconda3](https://docs.conda.io/en/latest/miniconda.html) est fortement recommandée.
+Il est impératif d'avoir [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/) installé sur votre machine. Vous pouvez le faire *via* conda par la commande suivante : 
+```
+conda install -c bioconda raxml
+```
 
-The github contains 4 scripts : 
+## Télécharger le programme
 
+1. Clonage du répertoire github
 
-- LG : Log Generation. This script allows to generate the log files from the csv results of BSW. This files can after be used with the SuperTRI program. The input is a vs file with bipartitions in rows and boostrap signal in columns. The output is log files for every windows with all of bipartition with a signal > 1. 
+> Lien HTTPS
 
-- ISC + BC : Informative Sites Count and Bipartitions Count. This script allows to generate graph of the count of informatives sites per windows and the count of bipartitions per windows. The input is csv files from BSW and a fasta alignement file. The ouput are the two graphes. 
+```
+git clone https://github.com/Dylkln/Phylo_AH.git
+```
 
-- BBC : Bootstrap Barcodes Construction. This script allows to build the barcode representation from csv file. The input is a csv files with the bipartition you want to visualize in barcode. The input is a barcode per biparttion. 
+> Lien SSH
 
-- SRC : Search For Recombination Candidates. This script allows to make a recombination candidates search. The inputs are the csv file with the bipartion you want to serch for candidates and the csv files with all bipartion who can be candidates. The output is a text file with the candidates per fragment of signal loss. 
+```
+git clone git@github.com:Dylkln/Phylo_AH.git
+```
 
-Here is the general pipeline of the internship for a better understanding of the role of each script : 
+2. Initialiser l'environnement conda à partir du fichier *environment.yml*
 
-![Pipeline](pipeline.png)
+```
+conda env create --file environment.yml
+```
 
+3. Activer l'environnement conda
 
+```
+conda activate phylo
+```
 
+## Utilisation du programme
 
+Pour utiliser le programme, vous devez être dans le répertoire "program" et lancer la commande suivante :
 
-These scripts are in Jupyter Notebook format. 
+```
+python phylo.py -f <FASTA_FILE> -n <NREP> -ws <WINDOW_SIZE> -s <STEP> -t <THREADS>
+```
 
+Avec les arguments suivants:
 
-If you have any questions please send an email to opale.rambaud@gmail.com
+**OBLIGATOIRES**
+- *FASTA_FILE* : Le fichier au format fasta contenant les alignements de séquences.
 
+**OPTIONNELS**
+- *NREP* : Nombre de matrice de réplication de bootstrap qui seront générées (par défaut 100). 
+- *WINDOW_SIZE* : La taille de fenêtre désirée (par déaut 1000). 
+- *STEP* :  Le pas de la fenêtre désirée (par défaut 100).
+- *THREADS* : Le nombre de Coeurs que le programme peut utiliser (par défaut 1).
 
+##### Exemple d'utilisation
+
+```
+python phylo.py -f ../data/exemple.fasta -n 10 -ws 1000 -s 100 -t 1
+```
