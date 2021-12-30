@@ -1,5 +1,8 @@
 # GB_barcodes_project
 
+This repository is reffered to the following article : Genomic bootstrap barcodes and their application to study the evolution of sarbecoviruses.
+
+Here, we developped a sliding window bootstrap (SWB) method to generate genomic bootstrap (GB) barcodes in order to highlight the regions supporting phylogenetic relationships.
 
 
 In order to create the csv files with please go in the BSW_programs folder and follow the read_me of the folder. 
@@ -14,7 +17,7 @@ In order to analyse the csv files please use this 4 scripts :
 
 - BBC : Bootstrap Barcodes Construction. This script allows to build the barcode representation from csv file. The input is a csv files with the bipartition you want to visualize in barcode. The input is a barcode per biparttion. 
 
-- SRC : Search For Recombination Candidates. This script allows to make a recombination candidates search. The inputs are the csv file with the bipartion you want to serch for candidates and the csv files with all bipartion who can be candidates. The output is a text file with the candidates per fragment of signal loss. 
+- SRC : Search For Recombination Candidates. This script allows to make a recombination candidates search. The inputs are the csv file with the bipartion you want to serch for candidates and the csv files with all bipartion who can be candidates. The output is a text file with the candidates per fragment of signal loss. /!\ This script is in an experimental state (not explained in the article).
 
 Here is the general pipeline of the project for a better understanding of the role of each script : 
 
