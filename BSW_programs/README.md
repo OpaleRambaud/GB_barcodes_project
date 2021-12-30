@@ -14,18 +14,6 @@ conda install -c bioconda raxml
 
 1. Cloning the github directory
 
-> HTTPS link
-
-```
-git clone https://github.com/Dylkln/Phylo_AH.git
-```
-
-> SSH link
-
-```
-git clone git@github.com:Dylkln/Phylo_AH.git
-```
-
 2. Initialise the conda environment from the *environment.yml* file
 
 ```
