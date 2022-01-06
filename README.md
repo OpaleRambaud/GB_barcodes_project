@@ -3,9 +3,7 @@
 
 __Authors :__
 
-Alexandre Hassanin 
-Dylan Klein
-Opale Rambaud
+Alexandre Hassanin , Dylan Klein, Opale Rambaud
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
