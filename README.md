@@ -7,6 +7,7 @@ Alexandre Hassanin
 Dylan Klein
 Opale Rambaud
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 This repository is reffered to the following article : Genomic bootstrap barcodes and their application to study the evolution of sarbecoviruses. Please read it to know the context, purpose and methods of the project. 
 
