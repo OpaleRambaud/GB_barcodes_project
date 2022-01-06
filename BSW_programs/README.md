@@ -1,5 +1,11 @@
 # Recombination detection program
 
+__Author :__
+
+Dylan Klein
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This program aims to give the frequencies of bipartitions calculated by maximum likelihood from a sequence alignment.
 
 ## Prerequisites
