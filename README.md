@@ -1,7 +1,7 @@
 # GB_barcodes_project
 
 
-Authors : 
+_Authors :_
 
 Alexandre Hassanin 
 
