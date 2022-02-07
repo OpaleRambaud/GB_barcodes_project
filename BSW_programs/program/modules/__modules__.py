@@ -1,5 +1,8 @@
 """
 This module file contains all functions needed by the main program.
+
+
+Copyright (C) 2022 Alexandre Hassanin MNHN
 """
 
 ########################## MODULE TO IMPORT #######################################
