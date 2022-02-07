@@ -1,9 +1,16 @@
 # GB_barcodes_project
 
+Copyright (C) 2022 Alexandre Hassanin MNHN
+
 
 __Authors :__
 
 Alexandre Hassanin , Dylan Klein, Opale Rambaud
+
+
+__Contact :__
+
+If you have any questions about this project please send an email at : alexandre.hassanin@mnhn.fr
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
