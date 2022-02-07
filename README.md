@@ -44,6 +44,5 @@ Here is the general pipeline of the project for a better understanding of the ro
 These scripts are in Jupyter Notebook format. 
 
 
-If you have any questions please send an email to opale.rambaud@gmail.com
 
 
