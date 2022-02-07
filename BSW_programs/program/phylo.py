@@ -6,7 +6,7 @@
 # will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
 # or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 # A copy of the GNU General Public License is available at http://www.gnu.org/licenses/gpl-3.0.html
-
+# Copyright (C) 2022 Alexandre Hassanin MNHN
 __author__ = "Dylan KLEIN"
 __contact__ = "klein.dylan@outlook.com"
 __version__ = "1.0.0"
