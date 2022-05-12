@@ -1,4 +1,4 @@
-# Recombination detection program
+# Slidding Windows Bootstrap Programm (SWB)
 
 __Author :__
 
@@ -22,8 +22,15 @@ conda install -c bioconda raxml
 
 2. Initialise the conda environment from the *environment.yml* file
 
+If you run this program on Linux computer or a PC use this command :
+
 ```
 conda env create --file environment.yml
+```
+If you run this program on MacOS use this command :
+
+```
+conda env create --file environment-macos.yml
 ```
 
 3. Activate the conda environment
@@ -55,5 +62,5 @@ With the following arguments:
 
 
 ```
-python phylo.py -f ../data/exemple.fasta -n 10 -ws 1000 -s 100 -t 1
+python phylo.py -f ../data/exemple.fasta -n 100 -ws 2000 -s 50 -t 1
 ```
