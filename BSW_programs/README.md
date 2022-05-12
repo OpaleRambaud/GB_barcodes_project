@@ -1,4 +1,4 @@
-# Slidding Windows Bootstrap Programm (SWB)
+# Sliding Windows Bootstrap Programm (SWB)
 
 __Author :__
 
