@@ -22,12 +22,12 @@ conda install -c bioconda raxml
 
 2. Initialise the conda environment from the *environment.yml* file
 
-If you run this program on Linux computer or a PC use this command :
+  If you run this program on Linux computer or a PC use this command :
 
 ```
 conda env create --file environment.yml
 ```
-If you run this program on MacOS use this command :
+  If you run this program on MacOS use this command :
 
 ```
 conda env create --file environment-macos.yml
