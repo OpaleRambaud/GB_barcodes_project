@@ -16,6 +16,9 @@ If you have any questions about this project please send an email at : alexandre
 
 This repository is reffered to the following article : Genomic bootstrap barcodes and their application to study the evolution of sarbecoviruses. Please read it to know the context, purpose and methods of the project. 
 
+Ici ce qui suit [Lien](https://www.mdpi.com/1999-4915/14/2/440 "titre de lien optionnel").
+
+
 Here, we developped a sliding window bootstrap (SWB) method to generate genomic bootstrap (GB) barcodes in order to highlight the regions supporting phylogenetic relationships.
 
 
