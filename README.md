@@ -33,19 +33,19 @@ The project contains several programs corresponding to different analysis steps.
 Each program is accompanied by a read_me to facilitate its use. Please read them carefully before starting to use a program. 
 
 
-- SWB program : Slidding Windows Bootstrap. The SWB program was designed to conduct bootstrap analyses on N subdatasets extracted from a multiple genome alignment (input file in Fasta format) using a
+- SWB_program : Slidding Windows Bootstrap. The SWB program was designed to conduct bootstrap analyses on N subdatasets extracted from a multiple genome alignment (input file in Fasta format) using a
 window of W nucleotides (W parameter) moving in steps of S nucleotides (S parameter) along the alignment.
 
-- BBC program : Bootstrap Barcodes Construction. This script allows to generate genomic bootstrap (GB)
+- BBC_program : Bootstrap Barcodes Construction. This script allows to generate genomic bootstrap (GB)
 barcodes to highlight the regions supporting phylogenetic relationships. A GB barcode can be viewed as a simplified representation of the SWB results. 
 
-- LFG program : Log Files Generation. This script allows to generate the log files from the csv results of BSW. This files can after be used with the SuperTRI program.
+- LFG_program : Log Files Generation. This script allows to generate the log files from the csv results of BSW. This files can after be used with the SuperTRI program.
 
-- Alternatives program : This program allows to find, for each node of a reference tree, the bipartitions coming from the SWB and BBC programs which question this node (alternatives).
+- TBA_program : Tree Barcodes and their Alternatives. This program allows to find, for each node of a reference tree, the bipartitions coming from the SWB and BBC programs which question this node (alternatives).
 
-- Colored barcodes program : This program allows to create barcodes of selectionned bipartition with the color you want.
+- COB_program : Colored Barcodes. This program allows to create barcodes of selectionned bipartition with the color you want.
 
-- Base composition program : The purpose of this program is to calculate the base composition for each window of the SWB analysis.
+- SNC_program : Synonymous Nucleotid Composition. The purpose of this program is to calculate the base composition for each window of the SWB analysis.
 
 - SuperTri program : This program will help you producing a matrix representation weighted by bootstrap proportions or Bayesian posterior probabilities.
 
