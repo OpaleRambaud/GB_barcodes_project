@@ -40,7 +40,7 @@ Please make sure run this script with the Phylo environment using for all progra
 To use the program, you must be in the "supertri_program" directory and run the following command :
 
 ```
-python main_supertri.py -r <SWB_FILE>
+python LFG_program.py -r <SWB_FILE>
 ```
 
 With the following arguments:
@@ -52,6 +52,6 @@ With the following arguments:
 ##### Example of use : 
 
 ```
-python main_supertri.py -r alpha_Rhinacovirus_SWB_ws2000_s50.csv
+python LFG_program.py -r alpha_Rhinacovirus_SWB_ws2000_s50.csv
 ```
 
