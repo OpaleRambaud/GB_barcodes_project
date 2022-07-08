@@ -51,7 +51,7 @@ barcodes to highlight the regions supporting phylogenetic relationships. A GB ba
 
 
 
-## *Information about use :*
+## **Information about use :**
 
 ## Prerequisites : 
 
