@@ -41,7 +41,7 @@ Please make sure run this script with the Phylo environment using for all progra
 To use the program, you must be in the "barcodes_program" directory and run the following command :
 
 ```
-python main_barcode.py -n <FASTA_FILE> -r <SWB_FILE> -ws <WINDOW_SIZE> -s <STEP> 
+python BBC_program.py -n <FASTA_FILE> -r <SWB_FILE> -ws <WINDOW_SIZE> -s <STEP> 
 ```
 
 With the following arguments:
@@ -57,6 +57,6 @@ With the following arguments:
 ##### Example of use : 
 
 ```
-python main_barcode.py -f Rhinacovirus.fasta -r alpha_Rhinacovirus_SWB_ws2000_s50.csv -ws 2000 -s 50 
+python BBC_program.py -f Rhinacovirus.fasta -r alpha_Rhinacovirus_SWB_ws2000_s50.csv -ws 2000 -s 50 
 ```
 
